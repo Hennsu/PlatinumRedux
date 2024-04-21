@@ -181,7 +181,7 @@ var RBY = {
     Flying: {
         '???': 1,
         Normal: 1,
-        Grass: 2,
+        Grass: 1,
         Fire: 1,
         Water: 1,
         Electric: 0.5,
@@ -244,7 +244,7 @@ var RBY = {
         Bug: 0.5,
         Poison: 2,
         Ground: 1,
-        Rock: 2,
+        Rock: 1,
         Fighting: 1,
         Psychic: 1,
         Ghost: 1,
@@ -301,7 +301,7 @@ var RBY = {
         Rock: 1,
         Fighting: 2,
         Psychic: 0.5,
-        Ghost: 1,
+        Ghost: 2,
         Dragon: 1
     },
     Ghost: {
@@ -317,9 +317,9 @@ var RBY = {
         Poison: 1,
         Ground: 1,
         Rock: 1,
-        Fighting: 1,
+        Fighting: 2,
         Psychic: 0,
-        Ghost: 2,
+        Ghost: 1,
         Dragon: 1
     },
     Dragon: {
