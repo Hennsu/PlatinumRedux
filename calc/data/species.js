@@ -1655,7 +1655,7 @@ var ADV_PATCH = {
     Shuckle: { abilities: { 0: 'Solid Rock' } },
     Skarmory: { abilities: { 0: 'Rock Head' } },
     Skiploom: { abilities: { 0: 'Proficiency' } },
-    Slowking: { abilities: { 0: 'Effect Spore' } },
+    Slowking: { abilities: { 0: 'Shed Skin' } },
     Slugma: { abilities: { 0: 'Flame Body' } },
     Sneasel: { abilities: { 0: 'Super Luck' } },
     Spinarak: { abilities: { 0: 'Precision' } },
