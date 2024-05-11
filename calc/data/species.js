@@ -3272,7 +3272,7 @@ var DPP_PATCH = {
         bs: { hp: 85, at: 70, df: 65, sa: 74, sd: 60, sp: 60 },
         weightkg: 19.2,
         nfe: true,
-        abilities: { 0: 'Unaware' }
+        abilities: { 0: 'Poison Point' }
     },
     Tangrowth: {
         types: ['Grass', 'Steel'],
