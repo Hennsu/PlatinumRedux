@@ -3875,7 +3875,7 @@ var DPP_PATCH = {
         types: ['Electric', 'Normal'],
         bs: { hp: 58, at: 61, df: 61, sa: 99, sd: 81, sp: 93 },
         weightkg: 345,
-        abilities: { 0: 'Sand Veil' },
+        abilities: { 0: 'Volt Absorb' },
         gender: 'N'
     },
     Goldeen: {
