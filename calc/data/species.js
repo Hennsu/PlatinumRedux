@@ -1963,7 +1963,7 @@ var ADV_PATCH = {
         bs: { hp: 70, at: 50, df: 60, sa: 70, sd: 90, sp: 90 },
         weightkg: 20.2,
         nfe: true,
-        abilities: { 0: 'Kirlia' }
+        abilities: { 0: 'Bad Dreams' }
     },
     Kyogre: {
         types: ['Water', 'Electric'],
