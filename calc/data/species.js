@@ -3777,7 +3777,7 @@ var DPP_PATCH = {
         types: ['Rock', 'Rock'],
         bs: { hp: 75, at: 50, df: 70, sa: 65, sd: 60, sp: 31 },
         weightkg: 345,
-        abilities: { 0: 'Flame Body' },
+        abilities: { 0: 'Solid Rock' },
         gender: 'N'
     },
     Snubbull: {
@@ -3791,7 +3791,7 @@ var DPP_PATCH = {
         types: ['Rock', 'Fire'],
         bs: { hp: 95, at: 65, df: 90, sa: 80, sd: 70, sp: 35 },
         weightkg: 345,
-        abilities: { 0: 'Flame Body' },
+        abilities: { 0: 'Solid Rock' },
         gender: 'N'
     },
     Granbull: {
