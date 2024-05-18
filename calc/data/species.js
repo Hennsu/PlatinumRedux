@@ -2161,7 +2161,7 @@ var ADV_PATCH = {
     },
     Roselia: {
         types: ['Grass', 'Poison'],
-        bs: { hp: 50, at: 50, df: 70, sa: 100, sd: 100, sp: 60 },
+        bs: { hp: 60, at: 50, df: 60, sa: 100, sd: 100, sp: 60 },
         weightkg: 2,
         abilities: { 0: 'Poison Point' }
     },
