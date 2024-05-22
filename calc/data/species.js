@@ -3362,21 +3362,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Tinted Lens' }
     },
     Tynamo: {
-        types: ['Electric', 'Electric'],
+        types: ['Electric'],
         bs: { hp: 46, at: 65, df: 53, sa: 70, sd: 59, sp: 55 },
         weightkg: 345,
         abilities: { 0: 'Swift Swim' },
         gender: 'N'
     },
     Eelektrik: {
-        types: ['Electric', 'Electric'],
+        types: ['Electric'],
         bs: { hp: 61, at: 95, df: 57, sa: 90, sd: 70, sp: 74 },
         weightkg: 345,
         abilities: { 0: 'Swift Swim' },
         gender: 'N'
     },
     Ninjask: {
-        types: ['Electric', 'Electric'],
+        types: ['Electric'],
         bs: { hp: 61, at: 95, df: 57, sa: 90, sd: 70, sp: 74 },
         weightkg: 345,
         abilities: { 0: 'Swift Swim' },
@@ -3397,14 +3397,14 @@ var DPP_PATCH = {
         gender: 'N'
     },
     Drilbur: {
-        types: ['Ground', 'Ground'],
+        types: ['Ground'],
         bs: { hp: 82, at: 95, df: 60, sa: 40, sd: 70, sp: 78 },
         weightkg: 345,
         abilities: { 0: 'Sand Veil' },
         gender: 'N'
     },
     Corsola: {
-        types: ['Ground', 'Ground'],
+        types: ['Ground'],
         bs: { hp: 82, at: 95, df: 60, sa: 40, sd: 70, sp: 78 },
         weightkg: 345,
         abilities: { 0: 'Sand Veil' },
@@ -3564,14 +3564,14 @@ var DPP_PATCH = {
         gender: 'N'
     },
     Cubchoo: {
-        types: ['Ice', 'Ice'],
+        types: ['Ice'],
         bs: { hp: 79, at: 76, df: 70, sa: 52, sd: 80, sp: 53 },
         weightkg: 345,
         abilities: { 0: 'Snow Cloak' },
         gender: 'N'
     },
     Finneon: {
-        types: ['Ice', 'Ice'],
+        types: ['Ice'],
         bs: { hp: 79, at: 76, df: 70, sa: 52, sd: 80, sp: 53 },
         weightkg: 345,
         abilities: { 0: 'Snow Cloak' },
@@ -3774,14 +3774,14 @@ var DPP_PATCH = {
         gender: 'N'
     },
     Rolycoly: {
-        types: ['Rock', 'Rock'],
+        types: ['Rock'],
         bs: { hp: 75, at: 50, df: 70, sa: 65, sd: 60, sp: 31 },
         weightkg: 345,
         abilities: { 0: 'Solid Rock' },
         gender: 'N'
     },
     Snubbull: {
-        types: ['Rock', 'Rock'],
+        types: ['Rock'],
         bs: { hp: 75, at: 50, df: 70, sa: 65, sd: 60, sp: 31 },
         weightkg: 345,
         abilities: { 0: 'Flame Body' },
