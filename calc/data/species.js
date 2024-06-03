@@ -1445,7 +1445,7 @@ var GSC_PATCH = {
 };
 var GSC = (0, util_1.extend)(true, {}, RBY, GSC_PATCH);
 var ADV_PATCH = {
-    Abra: { abilities: { 0: 'Synchronize' } },
+    Abra: { abilities: { 0: 'Magic Guard' } },
     Aerodactyl: { abilities: { 0: 'Rock Head' } },
     Alakazam: { abilities: { 0: 'Magic Guard' } },
     Arbok: { abilities: { 0: 'Intimidate' } },
@@ -1491,8 +1491,8 @@ var ADV_PATCH = {
     Golduck: { abilities: { 0: 'Bad Dreams' } },
     Golem: { abilities: { 0: 'Solid Rock' } },
     Graveler: { abilities: { 0: 'Solid Rock' } },
-    Grimer: { abilities: { 0: 'Liquid Ooze' } },
-    Growlithe: { abilities: { 0: 'Frisk' } },
+    Grimer: { abilities: { 0: 'Water Absorb' } },
+    Growlithe: { abilities: { 0: 'Flame Body' } },
     Gyarados: { abilities: { 0: 'Swift Swim' } },
     Haunter: { abilities: { 0: 'Levitate' } },
     Hitmonchan: { abilities: { 0: 'Iron Fist' } },
@@ -1520,7 +1520,7 @@ var ADV_PATCH = {
     Magmar: { abilities: { 0: 'Flame Body' } },
     Magnemite: { abilities: { 0: 'Levitate' } },
     Magneton: { abilities: { 0: 'Levitate' } },
-    Mankey: { abilities: { 0: 'Insomnia' } },
+    Mankey: { abilities: { 0: 'Iron Fist' } },
     Marowak: { abilities: { 0: 'Rock Head' } },
     Meowth: { abilities: { 0: 'Technician' } },
     Metapod: { abilities: { 0: 'Shed Skin' } },
@@ -1529,7 +1529,7 @@ var ADV_PATCH = {
     Moltres: { abilities: { 0: 'Reckless' } },
     'Mr. Mime': { abilities: { 0: 'Magic Guard' } },
     Muk: { abilities: { 0: 'Water Absorb' } },
-    Nidoking: { abilities: { 0: 'Intimidate' } },
+    Nidoking: { abilities: { 0: 'Hustle' } },
     Nidoqueen: { abilities: { 0: 'Rough Skin' } },
     'Nidoran-F': { abilities: { 0: 'Rough Skin' } },
     'Nidoran-M': { abilities: { 0: 'Hustle' } },
@@ -1551,21 +1551,21 @@ var ADV_PATCH = {
     Poliwag: { abilities: { 0: 'Water Absorb' } },
     Poliwhirl: { abilities: { 0: 'Iron Fist' } },
     Poliwrath: { abilities: { 0: 'Iron Fist' } },
-    Ponyta: { abilities: { 0: 'Flame Body' } },
+    Ponyta: { abilities: { 0: 'Solar Rush' } },
     Porygon: { abilities: { 0: 'Adaptability' } },
-    Primeape: { abilities: { 0: 'Insomnia' } },
+    Primeape: { abilities: { 0: 'Iron Fist' } },
     Psyduck: { abilities: { 0: 'Bad Dreams' } },
     Raichu: { abilities: { 0: 'Levitate' } },
     Rapidash: { abilities: { 0: 'Solar Rush' } },
     Raticate: { abilities: { 0: 'Hustle' } },
     Rattata: { abilities: { 0: 'Hustle' } },
-    Rhydon: { abilities: { 0: 'Rough Skin' } },
-    Rhyhorn: { abilities: { 0: 'Rough Skin' } },
+    Rhydon: { abilities: { 0: 'Drought' } },
+    Rhyhorn: { abilities: { 0: 'Drought' } },
     Sandshrew: { abilities: { 0: 'Heatproof' } },
     Sandslash: { abilities: { 0: 'Heatproof' } },
     Scyther: { abilities: { 0: 'Technician' } },
     Seadra: { abilities: { 0: 'Super Luck' } },
-    Seel: { abilities: { 0: 'Thick Fat' } },
+    Seel: { abilities: { 0: 'Water Absorb' } },
     Slowbro: { abilities: { 0: 'Shed Skin' } },
     Slowpoke: { abilities: { 0: 'Insomnia' } },
     Snorlax: { abilities: { 0: 'Thick Fat' } },
@@ -1573,13 +1573,13 @@ var ADV_PATCH = {
     Squirtle: { abilities: { 0: 'Water Absorb' } },
     Starmie: { abilities: { 0: 'Analyst' } },
     Staryu: { abilities: { 0: 'Analyst' } },
-    Tangela: { abilities: { 0: 'Sunny Heal' } },
+    Tangela: { abilities: { 0: 'Heatproof' } },
     Tauros: { abilities: { 0: 'Reckless' } },
     Tentacool: { abilities: { 0: 'Liquid Ooze' } },
     Tentacruel: { abilities: { 0: 'Liquid Ooze' } },
     Vaporeon: { abilities: { 0: 'Water Absorb' } },
     Venomoth: { abilities: { 0: 'Precision' } },
-    Venonat: { abilities: { 0: 'Shield Dust' } },
+    Venonat: { abilities: { 0: 'Precision' } },
     Venusaur: { abilities: { 0: 'Thick Fat' } },
     Victreebel: { abilities: { 0: 'Solar Rush' } },
     Vileplume: { abilities: { 0: 'Effect Spore' } },
@@ -1592,7 +1592,7 @@ var ADV_PATCH = {
     Wigglytuff: { abilities: { 0: 'Analyst' } },
     Zapdos: { abilities: { 0: 'Volt Absorb' } },
     Zubat: { abilities: { 0: 'Super Luck' } },
-    Aipom: { abilities: { 0: 'Run Away' } },
+    Aipom: { abilities: { 0: 'Sand Veil' } },
     Ampharos: { abilities: { 0: 'Static' } },
     Ariados: { abilities: { 0: 'Precision' } },
     Azumarill: { abilities: { 0: 'Clear Body' } },
@@ -1602,10 +1602,10 @@ var ADV_PATCH = {
     Celebi: { abilities: { 0: 'Wisdom' } },
     Chikorita: { abilities: { 0: 'Thick Fat' } },
     Chinchou: { abilities: { 0: 'Volt Absorb' } },
-    Corsola: { abilities: { 0: 'Hustle' } },
+    Corsola: { abilities: { 0: 'Drilbur' } },
     Crobat: { abilities: { 0: 'Super Luck' } },
     Croconaw: { abilities: { 0: 'Intimidate' } },
-    Cyndaquil: { abilities: { 0: 'Solar Power' } },
+    Cyndaquil: { abilities: { 0: 'Solar Rush' } },
     Delibird: { abilities: { 0: 'Snow Warning' } },
     Donphan: { abilities: { 0: 'Rock Head' } },
     Dunsparce: { abilities: { 0: 'Proficiency' } },
@@ -1619,7 +1619,7 @@ var ADV_PATCH = {
     Gligar: { abilities: { 0: 'Sand Veil' } },
     Heracross: { abilities: { 0: 'No Guard' } },
     'Ho-Oh': { abilities: { 0: 'Flash Fire' } },
-    Hoothoot: { abilities: { 0: 'Trace' } },
+    Hoothoot: { abilities: { 0: 'Bad Dreams' } },
     Hoppip: { abilities: { 0: 'Proficiency' } },
     Houndoom: { abilities: { 0: 'Intimidate' } },
     Houndour: { abilities: { 0: 'Intimidate' } },
@@ -1651,12 +1651,12 @@ var ADV_PATCH = {
     Raikou: { abilities: { 0: 'Motor Drive' } },
     Remoraid: { abilities: { 0: 'Precision' } },
     Scizor: { abilities: { 0: 'Technician' } },
-    Sentret: { abilities: { 0: 'Limber' } },
+    Sentret: { abilities: { 0: 'Sand Veil' } },
     Shuckle: { abilities: { 0: 'Solid Rock' } },
     Skarmory: { abilities: { 0: 'Rock Head' } },
     Skiploom: { abilities: { 0: 'Proficiency' } },
     Slowking: { abilities: { 0: 'Shed Skin' } },
-    Slugma: { abilities: { 0: 'Flame Body' } },
+    Slugma: { abilities: { 0: 'Drought' } },
     Sneasel: { abilities: { 0: 'Super Luck' } },
     Spinarak: { abilities: { 0: 'Precision' } },
     Stantler: { abilities: { 0: 'Intimidate' } },
@@ -1674,7 +1674,7 @@ var ADV_PATCH = {
     Tyranitar: { abilities: { 0: 'Solid Rock' } },
     Umbreon: { abilities: { 0: 'Synchronize' } },
     Ursaring: { abilities: { 0: 'Hustle' } },
-    Wooper: { abilities: { 0: 'Unaware' } },
+    Wooper: { abilities: { 0: 'Water Absorb' } },
     Xatu: { abilities: { 0: 'Magic Guard' } },
     Yanma: { abilities: { 0: 'Tinted Lens' } },
     Absol: {
@@ -1888,7 +1888,7 @@ var ADV_PATCH = {
     },
     Electrike: {
         types: ['Electric'],
-        bs: { hp: 65, at: 55, df: 55, sa: 70, sd: 60, sp: 95 },
+        bs: { hp: 60, at: 70, df: 55, sa: 75, sd: 60, sp: 95 },
         weightkg: 15.2,
         nfe: true,
         abilities: { 0: 'Adaptability' }
@@ -1943,7 +1943,7 @@ var ADV_PATCH = {
         bs: { hp: 70, at: 43, df: 53, sa: 43, sd: 53, sp: 40 },
         weightkg: 10.3,
         nfe: true,
-        abilities: { 0: 'Liquid Ooze' }
+        abilities: { 0: 'Poison Point' }
     },
     Illumise: {
         types: ['Bug', 'Water'],
@@ -2034,7 +2034,7 @@ var ADV_PATCH = {
     },
     Manectric: {
         types: ['Electric', 'Ice'],
-        bs: { hp: 80, at: 75, df: 83, sa: 104, sd: 82, sp: 120 },
+        bs: { hp: 80, at: 75, df: 77, sa: 104, sd: 88, sp: 120 },
         weightkg: 40.2,
         abilities: { 0: 'Adaptability' }
     },
@@ -2320,7 +2320,7 @@ var ADV_PATCH = {
         bs: { hp: 55, at: 70, df: 63, sa: 75, sd: 60, sp: 57 },
         weightkg: 2.5,
         nfe: true,
-        abilities: { 0: 'Blaze' }
+        abilities: { 0: 'Speed Boost' }
     },
     Torkoal: {
         types: ['Fire', 'Ground'],
@@ -2346,7 +2346,7 @@ var ADV_PATCH = {
         bs: { hp: 50, at: 70, df: 50, sa: 55, sd: 65, sp: 80 },
         weightkg: 5,
         nfe: true,
-        abilities: { 0: 'Tinted Lens' }
+        abilities: { 0: 'Analyst' }
     },
     Tropius: {
         types: ['Grass', 'Dragon'],
@@ -2398,7 +2398,7 @@ var ADV_PATCH = {
         bs: { hp: 70, at: 70, df: 60, sa: 75, sd: 70, sp: 65 },
         weightkg: 9.5,
         nfe: true,
-        abilities: { 0: 'Unaware' }
+        abilities: { 0: 'Drizzle' }
     },
     Wurmple: {
         types: ['Bug'],
@@ -2908,7 +2908,7 @@ var DPP_PATCH = {
         bs: { hp: 70, at: 90, df: 60, sa: 80, sd: 60, sp: 95 },
         weightkg: 30.5,
         nfe: true,
-        abilities: { 0: 'Intimidate' }
+        abilities: { 0: 'Adaptability' }
     },
     Luxray: {
         types: ['Electric', 'Dark'],
@@ -3128,7 +3128,7 @@ var DPP_PATCH = {
         bs: { hp: 60, at: 75, df: 50, sa: 70, sd: 50, sp: 80 },
         weightkg: 9.5,
         nfe: true,
-        abilities: { 0: 'Intimidate' }
+        abilities: { 0: 'Adaptability' }
     },
     Skorupi: {
         types: ['Poison', 'Bug'],
@@ -3142,7 +3142,7 @@ var DPP_PATCH = {
         bs: { hp: 96, at: 99, df: 101, sa: 61, sd: 74, sp: 95 },
         weightkg: 12,
         nfe: true,
-        abilities: { 0: 'Intimidate' }
+        abilities: { 0: 'Hustle' }
     },
     Rockruff: {
         types: ['Rock'],
@@ -3651,7 +3651,7 @@ var DPP_PATCH = {
         types: ['Bug', 'Fire'],
         bs: { hp: 76, at: 93, df: 60, sa: 82, sd: 85, sp: 79 },
         weightkg: 345,
-        abilities: { 0: 'Sunny Heal' },
+        abilities: { 0: 'Solar Rush' },
         gender: 'N'
     },
     Skitty: {
@@ -3917,7 +3917,7 @@ var DPP_PATCH = {
         types: ['Ice', 'Rock'],
         bs: { hp: 111, at: 68, df: 76, sa: 72, sd: 88, sp: 55 },
         weightkg: 345,
-        abilities: { 0: 'Snow Cloak' },
+        abilities: { 0: 'Snow Warning' },
         gender: 'N'
     },
     Aurorus: {
