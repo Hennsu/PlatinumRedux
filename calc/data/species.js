@@ -209,7 +209,7 @@ var RBY = {
     },
     Electabuzz: {
         types: ['Electric'],
-        bs: { hp: 85, at: 95, df: 75, sp: 80, sl: 85 },
+        bs: { hp: 85, at: 95, df: 75, sp: 77, sl: 85 },
         weightkg: 30
     },
     Electrode: {
@@ -433,7 +433,7 @@ var RBY = {
     },
     Magmar: {
         types: ['Fire'],
-        bs: { hp: 85, at: 85, df: 60, sp: 80, sl: 95 },
+        bs: { hp: 85, at: 85, df: 60, sp: 77, sl: 95 },
         weightkg: 44.5
     },
     Magnemite: {
@@ -2034,7 +2034,7 @@ var ADV_PATCH = {
     },
     Manectric: {
         types: ['Electric', 'Ice'],
-        bs: { hp: 80, at: 75, df: 77, sa: 104, sd: 88, sp: 120 },
+        bs: { hp: 80, at: 75, df: 77, sa: 103, sd: 88, sp: 120 },
         weightkg: 40.2,
         abilities: { 0: 'Adaptability' }
     },
@@ -2179,7 +2179,7 @@ var ADV_PATCH = {
     },
     Sceptile: {
         types: ['Grass', 'Dragon'],
-        bs: { hp: 78, at: 103, df: 76, sa: 95, sd: 81, sp: 119 },
+        bs: { hp: 81, at: 103, df: 76, sa: 95, sd: 84, sp: 108 },
         weightkg: 52.2,
         abilities: { 0: 'Analyst' }
     },
@@ -2650,7 +2650,7 @@ var DPP_PATCH = {
     },
     Electivire: {
         types: ['Electric', 'Fighting'],
-        bs: { hp: 95, at: 125, df: 90, sa: 90, sd: 80, sp: 81 },
+        bs: { hp: 99, at: 125, df: 97, sa: 85, sd: 84, sp: 77 },
         weightkg: 138.6,
         abilities: { 0: 'Motor Drive' }
     },
@@ -2689,7 +2689,7 @@ var DPP_PATCH = {
     },
     Garchomp: {
         types: ['Dragon', 'Ground'],
-        bs: { hp: 93, at: 125, df: 95, sa: 90, sd: 75, sp: 97 },
+        bs: { hp: 98, at: 125, df: 95, sa: 85, sd: 75, sp: 97 },
         weightkg: 95,
         abilities: { 0: 'Rough Skin' }
     },
@@ -2783,7 +2783,7 @@ var DPP_PATCH = {
     },
     Honchkrow: {
         types: ['Dark', 'Flying'],
-        bs: { hp: 93, at: 83, df: 91, sa: 106, sd: 82, sp: 88 },
+        bs: { hp: 93, at: 83, df: 91, sa: 106, sd: 82, sp: 82 },
         weightkg: 27.3,
         abilities: { 0: 'Analyst' }
     },
@@ -2899,26 +2899,26 @@ var DPP_PATCH = {
     },
     Lucario: {
         types: ['Fighting', 'Steel'],
-        bs: { hp: 78, at: 100, df: 84, sa: 103, sd: 76, sp: 89 },
+        bs: { hp: 78, at: 100, df: 89, sa: 105, sd: 79, sp: 89 },
         weightkg: 54,
         abilities: { 0: 'Adaptability' }
     },
     Luxio: {
         types: ['Electric'],
-        bs: { hp: 70, at: 90, df: 60, sa: 80, sd: 60, sp: 95 },
+        bs: { hp: 70, at: 85, df: 60, sa: 80, sd: 70, sp: 85 },
         weightkg: 30.5,
         nfe: true,
         abilities: { 0: 'Adaptability' }
     },
     Luxray: {
         types: ['Electric', 'Dark'],
-        bs: { hp: 82, at: 105, df: 72, sa: 90, sd: 81, sp: 112 },
+        bs: { hp: 82, at: 105, df: 72, sa: 90, sd: 90, sp: 102 },
         weightkg: 42,
         abilities: { 0: 'Adaptability' }
     },
     Magmortar: {
         types: ['Fire', 'Water'],
-        bs: { hp: 95, at: 90, df: 80, sa: 125, sd: 90, sp: 81 },
+        bs: { hp: 99, at: 85, df: 84, sa: 125, sd: 97, sp: 77 },
         weightkg: 68,
         abilities: { 0: 'Flame Body' }
     },
@@ -2978,7 +2978,7 @@ var DPP_PATCH = {
     },
     'Porygon-Z': {
         types: ['Normal', 'Electric'],
-        bs: { hp: 80, at: 60, df: 80, sa: 115, sd: 90, sp: 90 },
+        bs: { hp: 71, at: 60, df: 80, sa: 115, sd: 99, sp: 90 },
         weightkg: 34,
         gender: 'N',
         abilities: { 0: 'Adaptability' }
