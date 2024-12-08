@@ -460,7 +460,7 @@ var RBY = {
     },
     Meowth: {
         types: ['Normal'],
-        bs: { hp: 60, at: 80, df: 55, sp: 105, sl: 50 },
+        bs: { hp: 60, at: 80, df: 65, sp: 105, sl: 50 },
         weightkg: 4.2,
         nfe: true
     },
@@ -569,7 +569,7 @@ var RBY = {
     },
     Persian: {
         types: ['Normal'],
-        bs: { hp: 83, at: 113, df: 91, sp: 124, sl: 65 },
+        bs: { hp: 83, at: 108, df: 91, sp: 116, sl: 65 },
         weightkg: 32
     },
     Pidgeot: {
@@ -651,7 +651,7 @@ var RBY = {
     },
     Raticate: {
         types: ['Normal'],
-        bs: { hp: 95, at: 94, df: 78, sp: 111, sl: 50 },
+        bs: { hp: 81, at: 91, df: 81, sp: 106, sl: 50 },
         weightkg: 18.5
     },
     Rattata: {
@@ -914,7 +914,7 @@ var GSC_PATCH = {
     Magneton: { types: ['Electric', 'Steel'], bs: { sa: 115, sd: 80 }, gender: 'N' },
     Mankey: { bs: { sa: 50, sd: 55 } },
     Marowak: { bs: { sa: 65, sd: 86 } },
-    Meowth: { bs: { sa: 50, sd: 70 } },
+    Meowth: { bs: { sa: 65, sd: 70 } },
     Metapod: { bs: { sa: 64, sd: 96 } },
     Mew: { bs: { sa: 110, sd: 105 }, gender: 'N' },
     Mewtwo: { bs: { sa: 150, sd: 95 }, gender: 'N' },
@@ -934,7 +934,7 @@ var GSC_PATCH = {
     Onix: { bs: { sa: 50, sd: 55 }, nfe: true },
     Paras: { bs: { sa: 85, sd: 85 } },
     Parasect: { bs: { sa: 100, sd: 110 } },
-    Persian: { types: ['Normal', 'Dark'], bs: { sa: 61, sd: 79 } },
+    Persian: { types: ['Normal', 'Dark'], bs: { sa: 93, sd: 74 } },
     Pidgeot: { bs: { sa: 112, sd: 87 } },
     Pidgeotto: { bs: { sa: 81, sd: 75 } },
     Pidgey: { bs: { sa: 62, sd: 63 } },
@@ -949,7 +949,7 @@ var GSC_PATCH = {
     Psyduck: { bs: { sa: 80, sd: 85 } },
     Raichu: { bs: { sa: 115, sd: 88 } },
     Rapidash: { bs: { sa: 85, sd: 72 } },
-    Raticate: { types: ['Normal', 'Dark'], bs: { sa: 60, sd: 88 } },
+    Raticate: { types: ['Normal', 'Dark'], bs: { sa: 86, sd: 101 } },
     Rattata: { bs: { sa: 90, sd: 60 } },
     Rhydon: { bs: { sa: 75, sd: 50 } },
     Rhyhorn: { bs: { sa: 75, sd: 50 } },
@@ -1200,7 +1200,7 @@ var GSC_PATCH = {
     },
     Meganium: {
         types: ['Grass', 'Dragon'],
-        bs: { hp: 125, at: 75, df: 100, sa: 100, sd: 85, sp: 62 },
+        bs: { hp: 125, at: 75, df: 100, sa: 98, sd: 85, sp: 69 },
         weightkg: 100.5
     },
     Miltank: {
@@ -1920,7 +1920,7 @@ var ADV_PATCH = {
     },
     Glalie: {
         types: ['Ice', 'Ghost'],
-        bs: { hp: 85, at: 105, df: 85, sa: 100, sd: 85, sp: 95 },
+        bs: { hp: 90, at: 105, df: 85, sa: 100, sd: 85, sp: 95 },
         weightkg: 256.5,
         abilities: { 0: 'Levitate' }
     },
@@ -2350,7 +2350,7 @@ var ADV_PATCH = {
     },
     Tropius: {
         types: ['Grass', 'Dragon'],
-        bs: { hp: 119, at: 90, df: 82, sa: 100, sd: 91, sp: 58 },
+        bs: { hp: 119, at: 85, df: 82, sa: 105, sd: 96, sp: 58 },
         weightkg: 100,
         abilities: { 0: 'Drought' }
     },
@@ -3139,7 +3139,7 @@ var DPP_PATCH = {
     },
     Obstagoon: {
         types: ['Normal', 'Dark'],
-        bs: { hp: 96, at: 99, df: 101, sa: 61, sd: 74, sp: 95 },
+        bs: { hp: 99, at: 99, df: 101, sa: 60, sd: 86, sp: 88 },
         weightkg: 12,
         nfe: true,
         abilities: { 0: 'Hustle' }

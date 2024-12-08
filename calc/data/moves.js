@@ -666,6 +666,21 @@ var DPP_PATCH = {
         type: 'Ice',
         category: 'Physical'
     },
+    'Inferno Slide': {
+        bp: 60,
+        type: 'Fire',
+        category: 'Physical'
+    },
+    'Spectral Vortex': {
+        bp: 50,
+        type: 'Ghost',
+        category: 'Special'
+    },
+    'Chilly Crash': {
+        bp: 50,
+        type: 'Ice',
+        category: 'Physical'
+    },
     'Terraforming': {
         bp: 95,
         type: 'Ground',
@@ -1808,7 +1823,7 @@ var DPP_PATCH = {
         type: 'Ground'
     },
         'Flame Charge': {
-        bp: 50,
+        bp: 55,
         category: 'Physical',
         type: 'Fire'
     },
