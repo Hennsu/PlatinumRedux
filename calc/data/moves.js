@@ -392,6 +392,7 @@ var ADV_PATCH = {
 var ADV = (0, util_1.extend)(true, {}, GSC, ADV_PATCH);
 var DPP_PATCH = {
     Absorb: { category: 'Special' },
+    Torment: { category: 'Special' },
     Bonemerang: { category: 'Physical' },
     'Brick Break': { category: 'Physical' },
     'Bullet Seed': { category: 'Physical' },
