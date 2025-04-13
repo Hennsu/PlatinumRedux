@@ -735,7 +735,7 @@ var RBY = {
     },
     Tangela: {
         types: ['Grass'],
-        bs: { hp: 80, at: 60, df: 90, sp: 45, sl: 70 },
+        bs: { hp: 80, at: 60, df: 65, sp: 45, sl: 70 },
         weightkg: 35
     },
     Tauros: {
@@ -756,7 +756,7 @@ var RBY = {
     },
     Vaporeon: {
         types: ['Water', 'Poison'],
-        bs: { hp: 125, at: 60, df: 90, sp: 75, sl: 110 },
+        bs: { hp: 125, at: 60, df: 80, sp: 75, sl: 110 },
         weightkg: 29
     },
     Venomoth: {
@@ -965,11 +965,11 @@ var GSC_PATCH = {
     Squirtle: { bs: { sa: 76, sd: 60 } },
     Starmie: { bs: { sa: 90, sd: 80 }, gender: 'N' },
     Staryu: { bs: { sa: 75, sd: 60 }, gender: 'N' },
-    Tangela: { bs: { sa: 70, sd: 65 } },
+    Tangela: { bs: { sa: 70, sd: 90 } },
     Tauros: { bs: { sa: 60, sd: 73 } },
     Tentacool: { bs: { sa: 55, sd: 100 } },
     Tentacruel: { bs: { sa: 71, sd: 118 } },
-    Vaporeon: { bs: { sa: 110, sd: 80 } },
+    Vaporeon: { bs: { sa: 110, sd: 90 } },
     Venomoth: { bs: { sa: 124, sd: 99 } },
     Venonat: { bs: { sa: 90, sd: 70 } },
     Venusaur: { bs: { sa: 108, sd: 102 } },
@@ -1648,7 +1648,7 @@ var ADV_PATCH = {
     Pupitar: { abilities: { 0: 'Solid Rock' } },
     Quagsire: { abilities: { 0: 'Water Absorb' } },
     Quilava: { abilities: { 0: 'Solar Rush' } },
-    Raikou: { abilities: { 0: 'Motor Drive' } },
+    Raikou: { abilities: { 0: 'Trace' } },
     Remoraid: { abilities: { 0: 'Precision' } },
     Scizor: { abilities: { 0: 'Technician' } },
     Sentret: { abilities: { 0: 'Sand Veil' } },
@@ -3276,7 +3276,7 @@ var DPP_PATCH = {
     },
     Tangrowth: {
         types: ['Grass', 'Steel'],
-        bs: { hp: 125, at: 95, df: 90, sa: 85, sd: 70, sp: 55 },
+        bs: { hp: 125, at: 95, df: 70, sa: 85, sd: 90, sp: 55 },
         weightkg: 128.6,
         abilities: { 0: 'Heatproof' }
     },
