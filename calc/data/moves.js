@@ -1125,7 +1125,7 @@ var DPP_PATCH = {
         category: 'Special'
     },
     'Energy Ball': { bp: 85, type: 'Grass', category: 'Special' },
-    'Gunk Shot': { bp: 100, type: 'Poison', category: 'Special' },
+    'Gunk Burst': { bp: 100, type: 'Poison', category: 'Special' },
     'Leaf Storm': { bp: 130, type: 'Grass', self: { boosts: { spa: -2 } }, category: 'Special' },
     'Power Gem': { bp: 80, type: 'Rock', category: 'Special' },
     'Psycho Shift': { bp: 0, type: 'Psychic' },
