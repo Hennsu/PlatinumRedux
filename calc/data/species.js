@@ -1758,8 +1758,8 @@ var ADV_PATCH = {
         abilities: { 0: 'Unburden' }
     },
     Blaziken: {
-        types: ['Fire', 'Fighting'],
-        bs: { hp: 77, at: 115, df: 84, sa: 85, sd: 94, sp: 90 },
+        types: ['Fire', 'Electric'],
+        bs: { hp: 74, at: 119, df: 84, sa: 81, sd: 94, sp: 93 },
         weightkg: 52,
         abilities: { 0: 'Speed Boost' }
     },
