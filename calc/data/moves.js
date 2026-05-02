@@ -232,7 +232,7 @@ var GSC_PATCH = {
     'Mach Punch': { bp: 50, type: 'Fighting', priority: 1 },
     Megahorn: { bp: 105, type: 'Bug' },
     'Metal Claw': { bp: 55, type: 'Steel' },
-    'Mud-Slap': { bp: 50, type: 'Ground' },
+    'Mud-Slap': { bp: 55, type: 'Ground' },
     Octazooka: { bp: 70, type: 'Water' },
     'Pain Split': { bp: 0, category: 'Status', type: 'Ghost' },
     'Shadow Ball': { bp: 85, type: 'Ghost' },
