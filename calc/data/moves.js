@@ -378,7 +378,7 @@ var ADV_PATCH = {
     'Shadow Punch': { bp: 75, type: 'Ghost', makesContact: true },
     'Shock Wave': { bp: 75, type: 'Electric' },
     Superpower: { bp: 115, type: 'Fighting', self: { boosts: { atk: -1, def: -1 } }, makesContact: true },
-    'Scale Smash': { bp: 95, type: 'Dragon', self: { boosts: { atk: -1, def: -1 } }, makesContact: true },
+    'Scale Smash': { bp: 70, type: 'Dragon', self: { boosts: { def: +1 } }, makesContact: true },
     'False Swipe': { bp: 95, type: 'Dragon', self: { boosts: { atk: -1, def: -1 } }, makesContact: true },
     'Short Circuit': { bp: 120, type: 'Electric', self: { boosts: { atk: -1, def: -1 } }, makesContact: false },
     'Psych Up': { bp: 115, type: 'Electric', self: { boosts: { atk: -1, def: -1 } }, makesContact: false },
